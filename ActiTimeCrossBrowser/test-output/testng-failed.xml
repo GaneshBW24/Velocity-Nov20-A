@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OperaTest(failed)">
+    <parameter name="browser" value="Opera"/>
+    <classes>
+      <class name="test.verifyApplicationHeaderPage">
+        <methods>
+          <include name="verifyReports"/>
+          <include name="loginToApplication"/>
+          <include name="createObjectOfPOMClasses"/>
+          <include name="verifyUserTab"/>
+          <include name="verifyWorkShedule"/>
+          <include name="launchBrowser"/>
+          <include name="verifyTasksTab"/>
+          <include name="verifyTimeTrack"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="clearPOMObject"/>
+        </methods>
+      </class> <!-- test.verifyApplicationHeaderPage -->
+    </classes>
+  </test> <!-- OperaTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
