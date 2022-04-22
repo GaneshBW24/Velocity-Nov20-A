@@ -30,4 +30,12 @@ public class Browser {
 		System.out.println("Chrome Browser");
 		return driver;
 	}
+	
+	public static WebDriver launchFirefoxBrowser() {
+		System.setProperty("webdriver.firefox.driver", 
+				"C:\\Users\\Lenovo\\Downloads\\exeFile's\\operadriver.exe");
+		WebDriver driver = new OperaDriver();
+		System.out.println("Opera Browser");
+		return driver;
+	}
 }
